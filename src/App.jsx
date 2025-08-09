@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from "react";
+import Gallery from "./Gallery";
 
 function App() {
   const [ input, setInput ] = useState()
   const [ display, setDisplay ] = useState( '' )
+  const [ index, setIndex ] = useState(0)
 
   useEffect( () => {
     setDisplay( input || 'Question ?' )
@@ -44,4 +46,14 @@ function App() {
   );
 }
 
-export default App;
+
+function Page() {
+  return (
+      <div className="Page">
+        <Gallery />
+        <Gallery />
+      </div>
+  );
+}
+
+export default Page;
