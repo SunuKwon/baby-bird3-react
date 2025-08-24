@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { sculptureList } from './data.js';
+import ClassComponet from "./class/ClassComponet";
+import FuncionComponet from "./function/FuncionComponet";
 
 export default function Gallery() {
     const [index, setIndex] = useState(0);
@@ -20,6 +22,8 @@ export default function Gallery() {
     let sculpture = sculptureList[index];
     return (
         <section>
+            <ClassComponet/>
+            <FuncionComponet/>
             <button onClick={handleNextClick}>
                 Next
             </button>
