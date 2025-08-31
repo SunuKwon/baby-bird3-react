@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from "react";
-import Gallery from "./Gallery";
+import Gallery from "./pages/Gallery/Gallery";
 
 function App() {
   const [ input, setInput ] = useState()
@@ -50,7 +50,6 @@ function App() {
 function Page() {
   return (
       <div className="Page">
-        <Gallery />
         <Gallery />
       </div>
   );

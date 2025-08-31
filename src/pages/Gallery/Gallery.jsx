@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { sculptureList } from './data.js';
-import ClassComponet from "./class/ClassComponet";
-import FuncionComponet from "./function/FuncionComponet";
+import { sculptureList } from '../../data.js';
+import ClassComponet from "../../componets/class/ClassComponet";
+import FuncionComponet from "../../componets/function/FuncionComponet";
 
 export default function Gallery() {
     const [index, setIndex] = useState(0);
