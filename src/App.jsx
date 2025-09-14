@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from "react";
 import Gallery from "./pages/Gallery/Gallery";
+import Login from "./pages/Login/Login";
 
 function App() {
   const [ input, setInput ] = useState()
@@ -55,4 +56,12 @@ function Page() {
   );
 }
 
-export default Page;
+function Home() {
+  return (
+      <div>
+        <Login/>
+      </div>
+  );
+}
+
+export default Home;
