@@ -1,0 +1,5 @@
+input {
+    flex-direction: column;
+    gap: 8px;
+    height: 30px;
+}
