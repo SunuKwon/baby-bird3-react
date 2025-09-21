@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from "react";
 import Gallery from "./pages/Gallery/Gallery";
-import Login from "./pages/Login/Login";
+import Login from "./pages/Login";
 
 function App() {
   const [ input, setInput ] = useState()

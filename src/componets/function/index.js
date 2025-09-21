@@ -1,6 +1,6 @@
 import React, {useState, useEffect, useCallback} from "react";
 
-export default function FunctionComponet(){
+export default function FuncionComponet(){
     const [ state, setState ] = useState(0)
     useEffect(() => {
         console.log("렌더링 후 실행됨");
